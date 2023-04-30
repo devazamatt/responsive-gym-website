@@ -12,6 +12,10 @@ export const themeSettings = () => {
         primary: 'hsl(180, 4%, 72%)',
         secondary: 'hsl(180, 4%, 98%)',
         black: 'hsl(180, 4%, 12%)'
+      },
+      background: {
+        paper: 'hsl(180, 12%, 8%)',
+        default: 'hsl(180, 12%, 8%)'
       }
     },
     typography: {
