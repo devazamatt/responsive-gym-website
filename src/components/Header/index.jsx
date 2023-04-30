@@ -1,11 +1,12 @@
 import { AppBar, Container, Toolbar } from '@mui/material'
+import Logo from '../Logo'
 
 const Header = () => {
   return (
     <AppBar>
       <Container>
         <Toolbar>
-          {/*Logo*/}
+          <Logo />
           {/*Navbar*/}
           {/*Button*/}
         </Toolbar>
