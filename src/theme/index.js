@@ -19,8 +19,16 @@ export const themeSettings = () => {
       }
     },
     typography: {
-      subtitle1: {
-        fontFamily: ['Kaushan Script', 'cursive'].join(',')
+      title: {
+        fontSize: '2rem',
+        letterSpacing: '1.5px'
+      },
+      subtitle: {
+        fontFamily: ['Kaushan Script', 'cursive'].join(','),
+        fontWeight: 400,
+        fontSize: '1.5rem',
+        lineHeight: 'initial',
+        letterSpacing: '1.5px'
       },
       body1: {
         fontFamily: ['Red Hat Display', 'sans-serif'].join(','),
