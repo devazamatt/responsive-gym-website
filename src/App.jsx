@@ -1,9 +1,12 @@
+import { useMemo } from 'react'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { CssBaseline } from '@mui/material'
-
-const theme = createTheme({})
+import { themeSettings } from './theme'
 
 const App = () => {
+  const mode = 'light'
+  const theme = useMemo(() => createTheme(themeSettings(mode)), [mode])
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
