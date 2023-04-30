@@ -1,6 +1,7 @@
 import { AppBar, Container, Toolbar } from '@mui/material'
 import Logo from '../Logo'
 import Navbar from '../Navbar'
+import ButtonUI from '../ButtonUI'
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
         <Toolbar>
           <Logo />
           <Navbar />
-          {/*Button*/}
+          <ButtonUI variant="contained" type="link" url="#register">Register Now</ButtonUI>
         </Toolbar>
       </Container>
     </AppBar>
