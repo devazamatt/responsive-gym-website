@@ -1,5 +1,6 @@
 import { AppBar, Container, Toolbar } from '@mui/material'
 import Logo from '../Logo'
+import Navbar from '../Navbar'
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <Container>
         <Toolbar>
           <Logo />
-          {/*Navbar*/}
+          <Navbar />
           {/*Button*/}
         </Toolbar>
       </Container>
