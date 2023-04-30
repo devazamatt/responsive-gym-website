@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('KaushanScript'), local('KaushanScript-Regular'),
+    url('../../fonts/Kaushan_Script/KaushanScript-Regular.ttf')
+      format('truetype'),
+    url('../../fonts/Kaushan_Script/KaushanScript-Regular.woff') format('woff'),
+    url('../../fonts/Kaushan_Script/KaushanScript-Regular.woff2')
+      format('woff2');
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('RedHatDisplay'), local('RedHatDisplay-Regular'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf')
+      format('truetype'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Regular.woff') format('woff'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Regular.woff2')
+      format('woff2');
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local('RedHatDisplay'), local('RedHatDisplay-Bold'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Bold.ttf') format('truetype'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Bold.woff') format('woff'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local('RedHatDisplay'), local('RedHatDisplay-Black'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Black.ttf')
+      format('truetype'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Black.woff') format('woff'),
+    url('../../fonts/Red_Hat_Display/RedHatDisplay-Black.woff2') format('woff2');
+}
